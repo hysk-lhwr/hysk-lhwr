@@ -23,6 +23,7 @@ I'm a Software Engineer with a background in full stack development and Data Sci
 
 ### I'm planning to write more often on whatever interests me, starting today!
 - [Douban](https://www.douban.com/people/hysk-lhwr/)
+- [Medium](https://hysk.medium.com/)
 
 ### Recent blog posts
 <!-- BLOG-POST-LIST:START -->
