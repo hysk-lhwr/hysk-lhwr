@@ -26,6 +26,8 @@ I'm a Software Engineer with a background in full stack development and Data Sci
 
 ### Recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [测试](https://www.douban.com/note/787445002/)
+- [Hey, Hysk here](https://medium.com/@hysk/hey-hysk-here-dece7e47fb32?source=rss-34c0f91a2e29------2)
 <!-- BLOG-POST-LIST:END -->
 
 ### If you want to contact me for anything,
