@@ -23,6 +23,11 @@ I'm a Software Engineer with a background in full stack development and Data Sci
 
 ### I'm planning to write more often on whatever interests me, starting today!
 - [Douban](https://www.douban.com/people/hysk-lhwr/)
+
+### Recent blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 ### If you want to contact me for anything,
 - [✉️️](mailto:lojun@umich.edu?subject=Hi%20Hysk)
 - [<img align='left' alt='hysk-linkedin' width='18px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />](https://www.linkedin.com/in/jun-luo-940aaa9b/)
