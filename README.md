@@ -3,14 +3,28 @@
 ### A little bit about me
 I'm a Software Engineer with a background in full stack development and Data Science. My mission is to make awesome new technologies available to everyone.    
 
-### I'm good at
-- <img align='left' height='24px' src='https://www.python.org/static/img/python-logo@2x.png' alt='Python'/>
-- <img align='left' height='18px' src='https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg' alt='Spring Boot'/>
-- <img align='left' height='24px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/500px-Angular_full_color_logo.svg.png' alt='Angular'/>
-- <img align='left' height='22px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/370px-Django_logo.svg.png' alt='Django'/>
-- <img align='left' height='20px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/440px-Docker_%28container_engine%29_logo.svg.png' alt='Docker'/>
-- <img align='left' height='22px' src='https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Apache_JMeter_Logo.svg/379px-Apache_JMeter_Logo.svg.png' alt='JMeter'/>
-- <img align='left' height='36px' src='https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/283px-Java_programming_language_logo.svg.png' alt='Java'/>     
+### My Skills
+[//]: # (Badge Generator: https://shields.io/)
+<p>
+    <img alt="Python" src="https://img.shields.io/badge/-Python-a8dadc?style=for-the-badge&logo=python&logoColor=e63946"/>
+    <img alt="Java" src="https://img.shields.io/badge/-Java-a8dadc?style=for-the-badge&logo=java&logoColor=e63946"/>
+    <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-a8dadc?style=for-the-badge&logo=javascript&logoColor=e63946"/>
+    <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-a8dadc?style=for-the-badge&logo=typescript&logoColor=e63946"/>
+    <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-a8dadc?style=for-the-badge&logo=css3&logoColor=e63946"/>
+    <img alt="SASS" src="https://img.shields.io/badge/-SASS-a8dadc?style=for-the-badge&logo=sass&logoColor=e63946"/>
+    <img alt="HTML" src="https://img.shields.io/badge/-HTML-a8dadc?style=for-the-badge&logo=html5&logoColor=e63946"/>
+    <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-a8dadc?style=for-the-badge&logo=mySQL&logoColor=e63946"/>
+    <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-a8dadc?style=for-the-badge&logo=mongodb&logoColor=e63946"/>
+    <img alt="Angular" src="https://img.shields.io/badge/-Angular-a8dadc?style=for-the-badge&logo=angular&logoColor=e63946"/>
+    <img alt="Spring" src="https://img.shields.io/badge/-Spring-a8dadc?style=for-the-badge&logo=spring&logoColor=e63946"/>
+    <img alt="Django" src="https://img.shields.io/badge/-Django-a8dadc?style=for-the-badge&logo=django&logoColor=e63946"/>
+    <img alt="Docker" src="https://img.shields.io/badge/-Docker-a8dadc?style=for-the-badge&logo=docker&logoColor=e63946"/>
+    <img alt="D3.JS" src="https://img.shields.io/badge/-D3.js-a8dadc?style=for-the-badge&logo=d3.js&logoColor=e63946"/>
+    <img alt="Git" src="https://img.shields.io/badge/-Git-a8dadc?style=for-the-badge&logo=Git&logoColor=e63946"/>
+    <img alt="GitHub Actions" src="https://img.shields.io/badge/-GitHub Actions-a8dadc?style=for-the-badge&logo=github-actions&logoColor=e63946"/>
+    <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-a8dadc?style=for-the-badge&logo=jenkins&logoColor=e63946"/>
+    <img alt="Jupyter" src="https://img.shields.io/badge/-Jupyter-a8dadc?style=for-the-badge&logo=jupyter&logoColor=e63946"/>
+</p>    
 
 **I hope to collaborate with content creators or open source developers on frontend UI development or backend integration of ML/DL services.**
 
