@@ -10,6 +10,14 @@ module.exports = JSON.parse("{\"index\":[\"douban\"],\"douban\":{\"title\":\"tit
 
 /***/ }),
 
+/***/ 8795:
+/***/ ((module) => {
+
+"use strict";
+module.exports = [];
+
+/***/ }),
+
 /***/ 8901:
 /***/ ((module) => {
 
@@ -55,7 +63,7 @@ const sourceLink = core.getInput('source-link');
 const postsPath = core.getInput('posts-path');
 const exec = __webpack_require__(8052);
 const GITHUB_TOKEN = core.getInput('gh_token');
-const oldPosts = require(postsPath);
+const oldPosts = __webpack_require__(8795);
 
 const commitPosts = async () => {
   // Getting config

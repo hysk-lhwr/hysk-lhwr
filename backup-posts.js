@@ -8,7 +8,7 @@ const sourceLink = core.getInput('source-link');
 const postsPath = core.getInput('posts-path');
 const exec = require('./exec');
 const GITHUB_TOKEN = core.getInput('gh_token');
-const oldPosts = require(postsPath);
+const oldPosts = require('./my-posts.json');
 
 const commitPosts = async () => {
   // Getting config
