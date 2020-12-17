@@ -53,10 +53,6 @@ new Parser().parseURL(sourceLink).then(data => {
         if (JSON.stringify(posts) !== JSON.stringify(oldPosts)) {
             console.log('writing posts');
             fs.writeFileSync(postsPath, JSON.stringify(posts));
-            console.log(testRunFlag == 'false');
-            console.log(testRunFlag === 'false');
-            console.log(testRunFlag);
-            console.log(!testRunFlag);
             if (testRunFlag == 'false') {
                 console.log('commiting changes');
                 commitPosts().then().catch();
