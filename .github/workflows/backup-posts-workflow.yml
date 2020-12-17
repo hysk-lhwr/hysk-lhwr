@@ -1,0 +1,24 @@
+name: Workflow to download posts from specified source
+on:
+  schedule: # Run workflow automatically
+    - cron: '0 */5 * * *' # Runs every 5 hour, at minute 0
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    name: download posts from DouBan
+    steps:
+      # To use this repository's private action,
+      # you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: download posts from DouBan
+        uses: ./ # Uses an action in the root directory
+        id: doubanPosts
+        with:
+          source-link: 'https://www.douban.com/feed/people/hysk-lhwr/notes'
+          posts-path: './my-posts.json'
+      # Show status of the `doubanPosts` step
+      - name: Get the status
+        run: echo "Job Status - ${{ steps.doubanPosts.outputs.status }}"
