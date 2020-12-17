@@ -1,0 +1,21 @@
+name: 'backup posts'
+description: 'Convert and post article from DouBan to Medium automatically'
+inputs:
+  gh_token: # id
+    description: 'GitHub access token with Repo scope'
+    required: false
+    default: ${{ github.token }}
+  source-link:  # id
+    description: 'the RSS feed url to import article from'
+    required: true
+    default: 'https://www.douban.com/feed/people/hysk-lhwr/notes,https://medium.com/feed/@hysk'
+  posts-path:  # id
+    description: 'path to where posts are saved'
+    required: true
+    default: './my-posts.json'
+outputs:
+  status: # id of output
+    description: 'done'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

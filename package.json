@@ -1,0 +1,24 @@
+{
+  "name": "hysk-lawr",
+  "version": "1.0.0",
+  "description": "### A little bit about me I'm a Software Engineer with a background in full stack development and Data Science. My mission is to make awesome new technologies available to everyone.",
+  "main": "backup-posts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hysk-lawr/hysk-lawr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hysk-lawr/hysk-lawr/issues"
+  },
+  "homepage": "https://github.com/hysk-lawr/hysk-lawr#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
