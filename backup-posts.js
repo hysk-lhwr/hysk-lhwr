@@ -5,10 +5,11 @@ const fs = require('fs');
 let Parser = require('rss-parser');
 const keymap = require('./keymap.json');
 const sourceLink = core.getInput('source-link');
-const postsPath = core.getInput('posts-path');
+const postsPath = './my-posts.json';
 const exec = require('./exec');
 const GITHUB_TOKEN = core.getInput('gh_token');
-const oldPosts = require('./my-posts.json');
+const oldPosts = require(postsPath);
+const testRunFlag = core.getInput('test-run');
 
 const commitPosts = async () => {
   // Getting config
@@ -49,10 +50,15 @@ new Parser().parseURL(sourceLink).then(data => {
                 abstract: item[keymap['douban'].abstract]
             });
         }
-        console.log('writing posts');
         if (JSON.stringify(posts) !== JSON.stringify(oldPosts)) {
+            console.log('writing posts');
             fs.writeFileSync(postsPath, JSON.stringify(posts));
-            if (false) {
+            console.log(testRunFlag == 'false');
+            console.log(testRunFlag === 'false');
+            console.log(testRunFlag);
+            console.log(!testRunFlag);
+            if (testRunFlag == 'false') {
+                console.log('commiting changes');
                 commitPosts().then().catch();
             }
         }

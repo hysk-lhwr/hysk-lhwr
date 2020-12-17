@@ -18,7 +18,7 @@ jobs:
         id: doubanPosts
         with:
           source-link: 'https://www.douban.com/feed/people/hysk-lhwr/notes'
-          posts-path: './my-posts.json'
+          test-run: false
       # Show status of the `doubanPosts` step
       - name: Get the status
         run: echo "Job Status - ${{ steps.doubanPosts.outputs.status }}"

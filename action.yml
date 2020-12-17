@@ -9,10 +9,10 @@ inputs:
     description: 'the RSS feed url to import article from'
     required: true
     default: 'https://www.douban.com/feed/people/hysk-lhwr/notes,https://medium.com/feed/@hysk'
-  posts-path:  # id
-    description: 'path to where posts are saved'
-    required: true
-    default: './my-posts.json'
+  test-run: # id
+    description: 'specify if it is a test run'
+    required: false
+    default: true
 outputs:
   status: # id of output
     description: 'done'

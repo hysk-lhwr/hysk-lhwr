@@ -60,10 +60,11 @@ const fs = __webpack_require__(5747);
 let Parser = __webpack_require__(9903);
 const keymap = __webpack_require__(4214);
 const sourceLink = core.getInput('source-link');
-const postsPath = core.getInput('posts-path');
+const postsPath = './my-posts.json';
 const exec = __webpack_require__(8052);
 const GITHUB_TOKEN = core.getInput('gh_token');
 const oldPosts = __webpack_require__(8795);
+const testRunFlag = core.getInput('test-run');
 
 const commitPosts = async () => {
   // Getting config
@@ -104,10 +105,17 @@ new Parser().parseURL(sourceLink).then(data => {
                 abstract: item[keymap['douban'].abstract]
             });
         }
-        console.log('writing posts');
         if (JSON.stringify(posts) !== JSON.stringify(oldPosts)) {
+            console.log('writing posts');
             fs.writeFileSync(postsPath, JSON.stringify(posts));
-            if (false) {}
+            console.log(testRunFlag == 'false');
+            console.log(testRunFlag === 'false');
+            console.log(testRunFlag);
+            console.log(!testRunFlag);
+            if (testRunFlag == 'false') {
+                console.log('commiting changes');
+                commitPosts().then().catch();
+            }
         }
     }
 }).catch();
