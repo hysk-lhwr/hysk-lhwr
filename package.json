@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hysk-lawr/hysk-lawr#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0"
+    "@actions/github": "^4.0.0",
+    "@vercel/ncc": "^0.26.0"
   }
 }
