@@ -2,6 +2,14 @@ module.exports =
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ 4214:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse("{\"index\":[\"douban\"],\"douban\":{\"title\":\"title\",\"author\":\"creator\",\"dateCreated\":\"pubDate\",\"canonicalLink\":\"link\",\"contentFormatted\":\"content:encoded\",\"contentText\":\"content:encodedSnippet\",\"abstract\":\"contentSnippet\"}}");
+
+/***/ }),
+
 /***/ 8901:
 /***/ ((module) => {
 
@@ -42,7 +50,7 @@ const core = __webpack_require__(6024);
 const github = __webpack_require__(5016);
 const fs = __webpack_require__(5747);
 let Parser = __webpack_require__(9903);
-const keymap = __webpack_require__(2368);
+const keymap = __webpack_require__(4214);
 const sourceLink = core.getInput('source-link');
 const postsPath = core.getInput('posts-path');
 const exec = __webpack_require__(8052);
@@ -13205,14 +13213,6 @@ utils.getEncodingFromContentType = function(contentType) {
   module.exports.writerState = WriterState;
 
 }).call(this);
-
-
-/***/ }),
-
-/***/ 2368:
-/***/ ((module) => {
-
-module.exports = eval("require")("./keymap.json");
 
 
 /***/ }),

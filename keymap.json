@@ -1,0 +1,12 @@
+{
+  "index": ["douban"],
+  "douban": {
+    "title": "title",
+    "author": "creator",
+    "dateCreated": "pubDate",
+    "canonicalLink": "link",
+    "contentFormatted": "content:encoded",
+    "contentText": "content:encodedSnippet",
+    "abstract": "contentSnippet"
+  }
+}
