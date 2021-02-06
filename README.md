@@ -41,11 +41,11 @@ I'm a Software Engineer with a background in full stack development and Data Sci
 
 ### Recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Managing Multiple GitHub Accounts on One Device — Quick and Simple!](https://medium.com/@hysk/managing-multiple-github-accounts-on-one-device-quick-and-simple-3113c2bbe91e?source=rss-34c0f91a2e29------2)
 - [Create a conda environment to run JavaScript with Jupyter notebook](https://medium.com/@hysk/create-a-conda-environment-to-run-javascript-with-jupyter-notebook-4c0872412681?source=rss-34c0f91a2e29------2)
 - [冬日里来一碗小糖水，满嘴幸福的味道！](https://www.douban.com/note/788129184/)
 - [如何用iOS自带相机制作动图](https://www.douban.com/note/787785707/)
 - [如何快速让GitHub主页丰富又漂亮](https://www.douban.com/note/787460488/)
-- [Hey, Hysk here](https://medium.com/@hysk/hey-hysk-here-dece7e47fb32?source=rss-34c0f91a2e29------2)
 <!-- BLOG-POST-LIST:END -->
 
 ### If you want to contact me for anything,
