@@ -1,7 +1,11 @@
 ## Hey, you found me! I'm HYSK and GO BLUE!
 
 ### A little bit about me
-I'm a Software Engineer with a background in full stack development and Data Science. My mission is to make awesome new technologies available to everyone.    
+I'm a Software Engineer with a background in full stack development and Data Science.     
+
+We are at the convergence of groundbreaking technologies. I am thrilled to live in such a time when changes are taking place at an unprecedented pace. We humans are set to evolve at a much faster and more controlled manner.     
+
+Let's aim for the future, learn and share!    
 
 ### My Skills
 [//]: # (Badge Generator: https://shields.io/)
@@ -25,8 +29,6 @@ I'm a Software Engineer with a background in full stack development and Data Sci
     <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-a8dadc?style=for-the-badge&logo=jenkins&logoColor=e63946"/>
     <img alt="Jupyter" src="https://img.shields.io/badge/-Jupyter-a8dadc?style=for-the-badge&logo=jupyter&logoColor=e63946"/>
 </p>    
-
-**I hope to collaborate with content creators or open source developers on frontend UI development or backend integration of ML/DL services.**
 
 ### When I'm not working, I'm most likely 
 - 👨‍🍳   🍜🍚🍖
